@@ -1,0 +1,16 @@
+- id: spellcheck-markdown
+  name: Markdown Spellcheck (ROCm docs rules)
+  entry: rocm-docs-spellcheck --silent --task=markdown
+  language: python
+  language_version: "3.8"
+  types: [markdown]
+  description: Spell check markdown files using the ROCm rules and word-list
+  stages: [pre-commit, pre-merge-commit, pre-push, manual]
+- id: mispelled-markdown
+  name: Generating Worldlist (ROCm docs rules)
+  entry: rocm-docs-spellcheck --reporter=collect --task=markdown
+  language: python
+  language_version: "3.8"
+  types: [markdown]
+  description: Print out mispelled words from markdown files using ROCm rules and word-list
+  stages: [manual]

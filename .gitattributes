@@ -1,0 +1,2 @@
+# Force lf to workaround pre-commit hook limitation
+/src/rocm_docs_spellcheck/data/wordlist.txt text eol=lf
