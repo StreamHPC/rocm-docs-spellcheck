@@ -1,0 +1,8 @@
+- id: markdown
+  name: Markdown Spellcheck (ROCm docs)
+  entry: rocm-docs-spellcheck --name markdown
+  language: python
+  language_version: "3.8"
+  types: [markdown]
+  description: Spell check markdown files using the ROCm rules and wordlist
+  stages: [pre-commit, pre-merge-commit, pre-push, manual]
