@@ -30,7 +30,7 @@ For more options and information you can refer to
 The hooks `mispelled-<language>` can be used to collect all mispelled words
 from all files, this can be useful for adding missing words to the word-list,
 after the legitimate mispellings have been fixed.
-Use it by running `pre-commit run mispelled-markdown.`
+Use it by running `pre-commit run --verbose --hook-stage=manual mispelled-markdown`
 
 ## Development Notes
 
