@@ -6,9 +6,9 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "bungcip.better-toml",
                 "ms-python.black-formatter",
-                "ms-python.python"
+                "ms-python.python",
+                "tamasfe.even-better-toml"
             ]
         }
     }
