@@ -33,8 +33,6 @@ decli==0.6.1
     # via commitizen
 distlib==0.3.7
     # via virtualenv
-exceptiongroup==1.1.3
-    # via pytest
 filelock==3.13.1
     # via virtualenv
 html5lib==1.1
@@ -49,8 +47,6 @@ importlib-metadata==6.8.0 ; python_version < "3.10"
     #   rocm-docs-spellcheck (pyproject.toml)
 importlib-resources==6.1.0 ; python_version < "3.9"
     # via rocm-docs-spellcheck (pyproject.toml)
-iniconfig==2.0.0
-    # via pytest
 isort==5.12.0
     # via rocm-docs-spellcheck (pyproject.toml)
 jinja2==3.1.2
@@ -78,7 +74,6 @@ packaging==23.2
     #   black
     #   build
     #   commitizen
-    #   pytest
 pathspec==0.11.2
     # via black
 pip-tools==7.3.0
@@ -87,8 +82,6 @@ platformdirs==3.11.0
     # via
     #   black
     #   virtualenv
-pluggy==1.3.0
-    # via pytest
 pre-commit==3.5.0
     # via rocm-docs-spellcheck (pyproject.toml)
 prompt-toolkit==3.0.36
@@ -98,8 +91,6 @@ pygments==2.16.1
 pyproject-hooks==1.0.0
     # via build
 pyspelling==2.9
-    # via rocm-docs-spellcheck (pyproject.toml)
-pytest==7.4.3
     # via rocm-docs-spellcheck (pyproject.toml)
 pyyaml==6.0.1
     # via
@@ -128,7 +119,6 @@ tomli==2.0.1
     #   mypy
     #   pip-tools
     #   pyproject-hooks
-    #   pytest
 tomlkit==0.12.2
     # via commitizen
 typer==0.9.0

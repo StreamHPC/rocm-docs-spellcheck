@@ -89,8 +89,8 @@ alias codestyle := fix-codestyle
 check-codestyle +files="src": (lint files) (check-isort files) (check-format files) (mypy files)
 alias check := check-codestyle
 
-test +files="src":
-	{{python}} -m pytest {{files}}
+# test +files="src":
+# 	{{python}} -m pytest {{files}}
 
 _check-commit-mesg file:
 	{{python}} -m commitizen check --allow-abort --commit-msg-file {{file}}

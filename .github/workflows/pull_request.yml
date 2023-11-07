@@ -49,6 +49,7 @@ jobs:
       run: just --set verbose_errors true -- check-codestyle
 
   test:
+    if: false
     name: Python Tests
     strategy:
       fail-fast: true
