@@ -1,0 +1,15 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "updateContentCommand": "just devenv",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bungcip.better-toml",
+                "ms-python.black-formatter",
+                "ms-python.python"
+            ]
+        }
+    }
+}

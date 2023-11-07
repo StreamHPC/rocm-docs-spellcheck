@@ -1,0 +1,13 @@
+{
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "black-formatter.args": [
+        "--config",
+        "pyproject.toml"
+    ],
+    "editor.rulers": [
+        80
+    ]
+}
