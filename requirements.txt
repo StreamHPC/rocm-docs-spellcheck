@@ -37,7 +37,7 @@ filelock==3.13.1
     # via virtualenv
 html5lib==1.1
     # via pyspelling
-identify==2.5.31
+identify==2.5.32
     # via pre-commit
 importlib-metadata==6.8.0 ; python_version < "3.10"
     # via
