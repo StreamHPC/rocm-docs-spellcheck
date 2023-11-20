@@ -119,7 +119,7 @@ tomli==2.0.1
     #   mypy
     #   pip-tools
     #   pyproject-hooks
-tomlkit==0.12.2
+tomlkit==0.12.3
     # via commitizen
 typer==0.9.0
     # via rocm-docs-spellcheck (pyproject.toml)
