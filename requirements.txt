@@ -134,7 +134,7 @@ virtualenv==20.24.6
     # via pre-commit
 wcmatch==8.5
     # via pyspelling
-wcwidth==0.2.9
+wcwidth==0.2.13
     # via prompt-toolkit
 webencodings==0.5.1
     # via html5lib
